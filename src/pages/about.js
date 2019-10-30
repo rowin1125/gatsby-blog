@@ -3,17 +3,16 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
 
-const index = () => {
+const about = () => {
   return (
     <Layout>
-      <Head title="Home" />
-      <h1>Hi im Rowin</h1>
-      <h2>Frontend dev from Purmerend</h2>
+      <Head title="About" />
+      <h1>About</h1>
       <p>
-        Need a dev, <Link to="/contact">contact me</Link>
+        About me <Link to="/contact"></Link>
       </p>
     </Layout>
   )
 }
 
-export default index
+export default about
